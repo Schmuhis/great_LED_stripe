@@ -31,7 +31,7 @@ void snake() {
       strip.setPixelColor((i + j) % LED_COUNT, white);
     }
     strip.show();
-    delay(50);
+    delay(40);
     i++;
   } else {
     i = 0;
